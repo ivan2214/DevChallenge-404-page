@@ -1,5 +1,10 @@
+/* -----------------google fonts--------------------- */
+
 @import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&family=Space+Mono:wght@700&display=swap");
 
+/* -----------------FIN google fonts--------------------- */
+
+/* -----------------Limpieza---------------------- */
 * {
   padding: 0;
   margin: 0;
@@ -19,7 +24,9 @@ body {
   min-height: 100vh;
   min-width: 100vw;
 }
+/* ----------------fin limpieza----------------------- */
 
+/* -----------------404 Page Not Found---------------------- */
 .section__404 {
   width: 100%;
   display: flex;
@@ -40,12 +47,17 @@ body {
   text-align: left;
 }
 
+/* ----------------- fin 404 Page Not Found---------------------- */
+
+/* ----------------- section page ---------------------- */
 .section__header {
   display: grid;
   grid-template-columns: 1fr;
   align-items: flex-start;
   justify-items: center;
 }
+
+/* -----------------img Page ---------------------- */
 
 figure {
   margin: 1.5rem auto;
@@ -59,6 +71,9 @@ figure .figure__img {
   text-align: center;
 }
 
+/* ----------------- fin img Page ---------------------- */
+
+/* -----------------  header contents ---------------------- */
 header {
   width: 100%;
   display: flex;
@@ -93,6 +108,9 @@ header {
   text-align: left;
 }
 
+/* ----------------- fin  header contents ---------------------- */
+
+/* ----------------- button in header ---------------------- */
 .header__button {
   color: #fff;
   background-color: var(--textColor);
@@ -103,6 +121,11 @@ header {
   cursor: pointer;
 }
 
+/* ----------------- fin button in header ---------------------- */
+
+/* ----------------- fin  section page ---------------------- */
+
+/* ----------------- DESKTOP --------------------- */
 @media screen and (min-width: 1024px) {
   .section__header {
     display: grid;
